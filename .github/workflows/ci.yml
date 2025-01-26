@@ -20,6 +20,8 @@ jobs:
 
       - name: Print Go Version
         run: go version
+      - name: Tests
+        run: go tests ./...
 
   style:
     name: Style
